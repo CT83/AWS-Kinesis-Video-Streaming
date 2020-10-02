@@ -9,5 +9,4 @@ RUN git checkout 824de900c2d4b42a403319ace5de9d68ec88b171
 WORKDIR /amazon-kinesis-video-streams-producer-sdk-cpp/kinesis-video-native-build
 
 RUN ls
-RUN ./min-install-script
-CMD ["/bin/sh","./kinesis_video_gstreamer_sample_app Producer-Stream","/dev/video0"]
+CMD ["/amazon-kinesis-video-streams-producer-sdk-cpp/kinesis-video-native-build/kinesis_video_gstreamer_sample_app Producer-Stream","/dev/video0"]
