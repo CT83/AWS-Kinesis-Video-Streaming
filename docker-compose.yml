@@ -4,7 +4,7 @@ services:
   producer:
     container_name: aws-kvs-producer
     build: .
-    volumes:
+    devices:
       - /dev/video0:/dev/video0
     env_file:
       - .env
