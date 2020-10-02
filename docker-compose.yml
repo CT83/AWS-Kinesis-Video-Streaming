@@ -5,7 +5,6 @@ services:
     container_name: aws-kvs-producer
     build: .
     volumes:
-      - ./data:/data
-    environment:
-      - PGADMIN_DEFAULT_EMAIL=user@domain.com
-      - PGADMIN_DEFAULT_PASSWORD=SuperSecret
+      - /dev/video0:/dev/video0
+    env_file:
+      - .env
