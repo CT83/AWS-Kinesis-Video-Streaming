@@ -10,4 +10,4 @@ WORKDIR /amazon-kinesis-video-streams-producer-sdk-cpp/kinesis-video-native-buil
 
 RUN ls
 #CMD ["/amazon-kinesis-video-streams-producer-sdk-cpp/kinesis-video-native-build/kinesis_video_gstreamer_sample_app Producer-Stream","/dev/video0"]
-RUN tail -f /dev/null
+CMD tail -f /dev/null
