@@ -10,4 +10,4 @@ WORKDIR /amazon-kinesis-video-streams-producer-sdk-cpp/kinesis-video-native-buil
 
 RUN ls
 RUN ./min-install-script
-CMD ["./kinesis_video_gstreamer_sample_app Producer-Stream","/dev/video0"]
+CMD ["/bin/sh","./kinesis_video_gstreamer_sample_app Producer-Stream","/dev/video0"]
