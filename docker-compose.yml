@@ -1,0 +1,11 @@
+version: "3.3"
+
+services:
+  producer:
+    container_name: aws-kvs-producer
+    build: .
+    volumes:
+      - ./data:/data
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=user@domain.com
+      - PGADMIN_DEFAULT_PASSWORD=SuperSecret
