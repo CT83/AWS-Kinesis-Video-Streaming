@@ -43,7 +43,7 @@ This means to get video streaming to work we have to first setup our Producer ma
 
 1. Login to AWS Console
 2. Navigate to **Kinesis Video Streams**, **Video Streams** and **Producer-Stream**
-3. Check different regions if you can't see anything in your current one. Mine in `us-west-2`.
+3. Check different regions if you can't see anything in your current one. Mine in `us-west-2`
 
 ![image-20201002135750753](D:\Code\Python\CT83-PC\AWS-Kinesis-Video-Streaming\images\image-20201002135750753.png)
 
